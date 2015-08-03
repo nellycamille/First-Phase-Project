@@ -1,102 +1,172 @@
 .main-section{
-  color: white;
-  background-size: 100%;
-  margin: 0;
+    color: white;
+    background-size: 100%;
+    margin: 0;
 }
 
 .main-home{
-  background-image: url("../manhattan.jpg");
+    background-image: url("../manhattan.jpg");
 }
 
 .main-about{
-  background-image: url("../city-2.jpg");
+    background-image: url("../city-2.jpg");
 }
 .about-container{
-  background-color: rgba(0,0,0, 0.6);
+    background-color: rgba(0,0,0, 0.6);
 }
 .main-contact{
-  background-image: url("../brisbane.jpg");
+    background-image: url("../brisbane.jpg");
 }
 .main-resume{
-  background-image: url("../skyline.jpg");
-}
-h1{
-  padding-top: 70px;
-  font-family:'Oswald', sans-serif;
+    background-image: url("../skyline.jpg");
 }
 
+
 .navbar{
-  text-align: right;
-  font-family:'Oswald', sans-serif;
-  font-weight: lighter;
+    text-align: right;
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
 }
 
 .navbar a{
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .navbar a:hover{
-  color: gray;
+    color: gray;
 }
 
 .navbar .active{
-  color: #aaaaaa;
+    color: #aaaaaa;
 }
 
 .navbar ul{
-  list-style: none;
+    list-style: none;
 }
 
 .navbar li{
-  display: inline-block;
-  padding-right: 20px;
+    display: inline-block;
+    padding-right: 20px;
 }
 
-h1{
-  padding-bottom: 325px;
+.name{
+    padding-bottom: 325px;
+    padding-top: 70px;
+    font-family:'Oswald', sans-serif;
 }
 .about-me-h2{
-  padding-left: 50px;
+    padding-left: 50px;
 }
 .about-me-h2 h2{
     font-family:'Oswald', sans-serif;
 }
 
-p{
-  font-size: 14pt;
-  text-align: center;
-  padding-top: 60px;
-  font-family:'Oswald', sans-serif;
-  font-weight: lighter;
+.name-2 p{
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: lighter;
+    margin-bottom: 0;
 }
 
-h3{
-  font-size: 10pt;
-  text-align: center;
-  font-family:'Oswald', sans-serif;
+.name-2{
+    font-size: 10pt;
+    text-align: center;
+    font-family:'Oswald', sans-serif;
 }
 .contact-form{
-  background-color: rgba(255 , 255, 255, 0.1);
-  margin-bottom: 150px;
-  padding-top: 75px;
-  border-radius: 20px;
+    background-color: rgba(255 , 255, 255, 0.1);
+    margin-bottom: 150px;
+    padding-top: 75px;
+    border-radius: 20px;
 }
 .photo-me{
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .about-item > i{
-  font-size: 40pt;
+    font-size: 40pt;
 
 }
 .about-item{
-  text-align: center;
+    text-align: center;
 }
 
 .about-container{
-  background-color: rgba(0,0,0, 0.6);
-border-radius: 20px;
-padding: 25px 0px;
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 20px;
+    padding: 25px 0px;
+}
+
+.header {
+    color: white;
+    font-size: 27px;
+    padding: 10px;
+
+}
+
+.bigicon {
+    font-size: 35px;
+    color: white;
+}
+.about-item >i {
+    font-size: 90pt;
+    padding-top: 40px;
+}
+
+.about{
+    margin-bottom: 140px;
+    margin-top: 50px;
+}
+.footer-links{
+    word-spacing: 50px;
+    font-size: 22pt;
+    font-family:'Oswald', sans-serif;
+}
+.footer-links li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    word-spacing: 30px;
+    margin: 0 auto;
+
+
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-links ul{
+  list-style: none;
+
+}
+.footer-distributed-fluid{
+background-color: black;
+text-align: center;
+}
+.resume{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.resume-content p{
+  padding-top: 0;
+  float: left;
+
+}
+body{
+    font-family:'Oswald', sans-serif;
+}
+
+.education{
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 20px;
+  padding: 20px 20px;
+  margin-bottom: 150px;
+}
+.skills{
+  font-size: 16pt;
+  font-weight: lighter;
 }
