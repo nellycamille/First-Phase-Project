@@ -74,6 +74,8 @@
     font-size: 10pt;
     text-align: center;
     font-family:'Oswald', sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .contact-form{
     background-color: rgba(255 , 255, 255, 0.1);
@@ -144,9 +146,12 @@
   list-style: none;
 
 }
-.footer-distributed-fluid{
+.container-fluid-inverse{
 background-color: black;
 text-align: center;
+}
+.footer{
+  background-color: black;
 }
 .resume{
   background-color: rgba(0, 0, 0, 0.6);
@@ -169,4 +174,7 @@ body{
 .skills{
   font-size: 16pt;
   font-weight: lighter;
+}
+.index-main-section{
+  margin-bottom: 40px;
 }
